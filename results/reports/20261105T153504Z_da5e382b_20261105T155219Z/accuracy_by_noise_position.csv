@@ -1,0 +1,13 @@
+task_id,noise_position,accuracy,sample_count
+task_01_math,after_question,1.0,3
+task_01_math,before_task,1.0,3
+task_01_math,between_description_question,1.0,3
+task_01_math,clean,1.0,1
+task_02_logic,after_question,1.0,3
+task_02_logic,before_task,1.0,3
+task_02_logic,between_description_question,1.0,3
+task_02_logic,clean,1.0,1
+task_03_traffic,after_question,1.0,3
+task_03_traffic,before_task,1.0,3
+task_03_traffic,between_description_question,1.0,3
+task_03_traffic,clean,1.0,1

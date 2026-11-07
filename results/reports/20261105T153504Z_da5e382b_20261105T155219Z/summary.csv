@@ -1,0 +1,14 @@
+experiment_id,task_id,experiment_name,sample_count,evaluated_count,failure_count,accuracy,distinct_raw_outputs,distinct_normalized_answers,most_frequent_answer,most_frequent_answer_count,format_violation_rate,raw_response_length_std,latency_p50_seconds,latency_p90_seconds
+01,task_01_math,Determinism,100,100,0,1.0,1,1,66,100,0.0,0.0,0.5533112998818979,0.5660276000620797
+01,task_02_logic,Determinism,100,100,0,1.0,1,1,mixture,100,0.0,0.0,1.54818525002338,1.5753973900573328
+01,task_03_traffic,Determinism,100,100,0,1.0,1,1,green,100,0.0,0.0,0.3183603499783203,0.32306780994404105
+02,task_01_math,Position Sensitivity,10,10,0,1.0,1,1,66,10,0.0,0.0,0.6744133001193404,0.8043762501794844
+02,task_02_logic,Position Sensitivity,10,10,0,1.0,1,1,mixture,10,0.0,0.0,3.084326000069268,4.182939349906519
+02,task_03_traffic,Position Sensitivity,10,10,0,1.0,1,1,green,10,0.0,0.0,0.42495914991013706,0.4301037200493738
+03,task_01_math,Reasoning Stability,11,11,0,1.0,1,1,66,11,0.0,0.0,0.6334287000354379,0.7780021000653505
+03,task_02_logic,Reasoning Stability,11,11,0,1.0,1,1,mixture,11,0.0,0.0,2.74341950006783,3.2826568000018597
+03,task_03_traffic,Reasoning Stability,11,11,0,1.0,1,1,green,11,0.0,0.0,0.35947020002640784,0.4348576001357287
+04,task_02_logic,Answer Order Sensitivity,24,24,0,1.0,4,1,mixture,24,0.0,0.0,2.0861616500187665,3.1491128599038345
+04,task_03_traffic,Answer Order Sensitivity,90,90,0,1.0,9,1,green,90,0.0,0.0,0.36042539996560663,0.42424101009964943
+05,task_02_logic,Noise x Answer Order Interaction,72,72,0,0.9166666666666666,4,3,mixture,66,0.0,0.0,2.7120960999745876,4.155327949952334
+05,task_03_traffic,Noise x Answer Order Interaction,72,72,0,1.0,9,1,green,72,0.0,0.0,0.3804368000710383,0.42557526992168276

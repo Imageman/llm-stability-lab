@@ -1,0 +1,10 @@
+model,noise_owner,run_id,noise_tokens,errors,logic_errors,traffic_errors,baseline_errors,clean_to_wrong,median_seconds
+openai/gpt-oss-20b,oss,20261106T182033Z_815a656e,300,0,0,0,0,0,1.24
+openai/gpt-oss-20b,qwen,20261106T185424Z_3394a693,222,0,0,0,0,0,1.12
+openai/gpt-oss-20b,gemma,20261106T185506Z_f9a751ab,1070,1,1,0,0,1,1.531
+qwen3.5-9b,oss,20261106T182443Z_f84331bc,316,4,4,0,3,1,0.341
+qwen3.5-9b,qwen,20261106T182453Z_ca255d79,296,4,4,0,3,1,0.325
+qwen3.5-9b,gemma,20261106T185348Z_6307a1e9,1124,4,4,0,3,1,0.69
+google/gemma-4-26b-a4b,oss,20261106T183920Z_56d4122d,284,0,0,0,0,0,13.403
+google/gemma-4-26b-a4b,qwen,20261106T184525Z_19590a16,294,1,1,0,0,1,8.25
+google/gemma-4-26b-a4b,gemma,20261106T185036Z_ff4f1fd9,1024,7,6,1,0,7,0.992

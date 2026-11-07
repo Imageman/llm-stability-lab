@@ -1,0 +1,42 @@
+{
+  "run_id": "20261106T202335Z_fb221e84",
+  "started_at": "2026-11-06T20:23:35.057084+00:00",
+  "experiment_ids": [
+    "01",
+    "02",
+    "03",
+    "04",
+    "05"
+  ],
+  "task_ids": null,
+  "plan_hash": "bac3c73cb0f11ed2d33e9d5d02e0e83c8b0652f5ea0199b2a22174c469f79dd5",
+  "planned_case_count": 621,
+  "inference_config": {
+    "base_url": "http://192.168.0.109:1234/v1",
+    "model_id": "qwen3.5-9b",
+    "timeout_seconds": 120.0,
+    "temperature": 0.0,
+    "max_tokens": 2048,
+    "reasoning_effort": null,
+    "seed": null,
+    "max_retries": 0
+  },
+  "run_config": {
+    "results_dir": "results",
+    "repetitions": 100,
+    "experiment_5_blocks": 18,
+    "experiment_6_context_limit": 18000,
+    "experiment_6_noise_levels": [
+      0,
+      256,
+      1024,
+      4096,
+      8192
+    ],
+    "experiment_6_noise_variant": "repeated",
+    "experiment_6_noise_seed": null,
+    "experiment_6_noise_file": null,
+    "random_seed": 1729
+  },
+  "random_seed": 1729
+}

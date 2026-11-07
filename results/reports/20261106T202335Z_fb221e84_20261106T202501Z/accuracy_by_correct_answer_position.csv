@@ -1,0 +1,14 @@
+task_id,correct_numeric_answer,accuracy,sample_count
+task_02_logic,1.0,0.0,6
+task_02_logic,2.0,0.0,6
+task_02_logic,3.0,0.3333333333333333,6
+task_02_logic,4.0,1.0,6
+task_03_traffic,1.0,1.0,10
+task_03_traffic,2.0,1.0,10
+task_03_traffic,3.0,1.0,10
+task_03_traffic,4.0,1.0,10
+task_03_traffic,5.0,1.0,10
+task_03_traffic,6.0,1.0,10
+task_03_traffic,7.0,1.0,10
+task_03_traffic,8.0,1.0,10
+task_03_traffic,9.0,1.0,10
