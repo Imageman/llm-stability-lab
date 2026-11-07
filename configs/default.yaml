@@ -1,0 +1,16 @@
+inference:
+  base_url: "http://192.168.0.109:1234/v1"
+  model_id: "openai/gpt-oss-20b"
+  timeout_seconds: 120
+  temperature: 0
+  max_tokens: 2048
+  reasoning_effort: null
+  seed: null
+  max_retries: 0
+run:
+  results_dir: "results"
+  repetitions: 100
+  experiment_5_blocks: 18
+  experiment_6_context_limit: 18000
+  experiment_6_noise_levels: [0, 256, 1024, 4096, 8192]
+  random_seed: 1729

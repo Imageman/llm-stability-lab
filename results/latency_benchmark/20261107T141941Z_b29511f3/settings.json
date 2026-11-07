@@ -1,0 +1,53 @@
+{
+  "config": {
+    "inference": {
+      "base_url": "http://192.168.0.109:1234/v1",
+      "model_id": "openai/gpt-oss-20b",
+      "timeout_seconds": 120.0,
+      "temperature": 0.0,
+      "max_tokens": 2048,
+      "reasoning_effort": null,
+      "seed": null,
+      "max_retries": 0
+    },
+    "run": {
+      "results_dir": "results",
+      "repetitions": 100,
+      "experiment_5_blocks": 18,
+      "experiment_6_context_limit": 18000,
+      "experiment_6_noise_levels": [
+        0,
+        256,
+        1024,
+        4096,
+        8192
+      ],
+      "experiment_6_noise_variant": "repeated",
+      "experiment_6_noise_seed": null,
+      "experiment_6_noise_file": null,
+      "random_seed": 1729
+    }
+  },
+  "models": [
+    "openai/gpt-oss-20b",
+    "qwen3.5-9b",
+    "google/gemma-4-26b-a4b"
+  ],
+  "levels": [
+    0,
+    128,
+    256,
+    512,
+    1024,
+    2048,
+    3072,
+    4096,
+    6144,
+    8192
+  ],
+  "rounds": 3,
+  "repetitions": 5,
+  "warmups_per_group": 1,
+  "noise_seed_base": 97428850537864685511932887091194421243,
+  "noise_variant": "random_words"
+}
